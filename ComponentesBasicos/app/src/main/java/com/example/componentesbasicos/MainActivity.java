@@ -97,9 +97,11 @@ public class MainActivity extends AppCompatActivity {
     public void limpar(View view) {
         campoNome.setText("");
         campoEmail.setText("");
-        textoResultado.setText("Resultado:");
         checkVerde.setChecked(false);
         checkBranco.setChecked(false);
         checkVermelho.setChecked(false);
+        sexoM.setChecked(false);
+        sexoF.setChecked(false);
+        textoResultado.setText("Resultado: ");
     }
 }
